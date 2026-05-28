@@ -31,7 +31,6 @@ const EmployeeDeleteModal = ({ isOpen, onClose, onDelete, employee }) => {
             </div>
         )}  
     </>
-
   )
 }
 
