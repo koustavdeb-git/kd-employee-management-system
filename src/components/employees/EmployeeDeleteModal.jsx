@@ -19,7 +19,6 @@ const EmployeeDeleteModal = ({ isOpen, onClose, onDelete, employee }) => {
                         </button>
                         <button
                             onClick={() => {
-                                // Call the delete function here, e.g. handleDelete(employee.id);
                                 onDelete(employee.id);
                                 onClose();
                              }}

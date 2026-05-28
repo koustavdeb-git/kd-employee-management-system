@@ -12,15 +12,11 @@ function Sidebar() {
     <aside className="  w-72  rounded-3xl  bg-gradient-to-b  from-slate-900  via-slate-800  to-slate-900  text-white  p-6  border  border-white/10  shadow-2xl  flex  flex-col"
     >
 
-      {/* Top */}
       <div>
-
-        {/* Logo */}
         <div className="mb-10">
           <img src={appLogo} alt="Logo" className="h-20 w-auto rounded-2xl" />
         </div>
 
-        {/* Navigation */}
         <nav>
           <ul className="space-y-3">
 
@@ -73,11 +69,9 @@ function Sidebar() {
 
       </div>
 
-      {/* Bottom Card */}
       <div
         className=" rounded-3xl bg-white/5 border border-white/10 p-5 backdrop-blur-xl"
       >
-        {/* User Info */}
         <div className="flex items-center gap-3">
 
           <div
@@ -98,10 +92,8 @@ function Sidebar() {
 
         </div>
 
-        {/* Divider */}
         <div className="my-4 border-t border-white/10" />
 
-        {/* Links */}
         <div className="space-y-1">
 
           <NavLink
