@@ -75,3 +75,80 @@
   padding: 10px;
   height: 100%;
 }
+
+/* Calendar Container */
+.custom-calendar {
+  border: none !important;
+  border-radius: 20px !important;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+  font-family: inherit;
+}
+
+/* Header */
+.custom-calendar .react-datepicker__header {
+  background: #243C4C;
+  border-bottom: none;
+  padding-top: 14px;
+}
+
+/* Month + Year Text */
+.custom-calendar .react-datepicker__current-month,
+.custom-calendar .react-datepicker-year-header {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Day Names */
+.custom-calendar .react-datepicker__day-name {
+  color: rgba(255,255,255,0.8);
+  font-weight: 500;
+}
+
+/* Days */
+.custom-calendar .react-datepicker__day {
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.custom-calendar .react-datepicker__day:hover {
+  background-color: #dbeafe;
+  color: #243C4C;
+}
+
+/* Selected Day */
+.custom-calendar .react-datepicker__day--selected {
+  background: #243C4C !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Today's Date */
+.custom-calendar .react-datepicker__day--today {
+  font-weight: bold;
+  color: #243C4C;
+}
+
+/* Navigation Arrows */
+.custom-calendar .react-datepicker__navigation-icon::before {
+  border-color: white;
+}
+
+.custom-calendar .react-datepicker__year-read-view--selected-year {
+  color: white;
+  font-weight: 600;
+}
+
+/* Year Dropdown */
+.custom-calendar .react-datepicker__year-dropdown {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+ .react-datepicker__navigation--previous {
+  top: 17px;
+  left: 10px;
+}
