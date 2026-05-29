@@ -148,7 +148,13 @@
   border: 1px solid #e2e8f0;
 }
 
- .react-datepicker__navigation--previous {
+ .react-datepicker__navigation--previous
+  {
   top: 17px;
   left: 10px;
+}
+
+.react-datepicker__navigation--next {
+  top: 17px;
+  right: 10px;
 }
